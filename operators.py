@@ -27,7 +27,26 @@ print(c) # 3 left shift of binary (101 --->000)
 d=5
 d<<=3
 print (d) # 3 left shift of binary (101 ---> 101000)
-
+#comparision operators
+l=5
+m=6
+print(l==m)
+print(l>m)
+print(l<m)
+print(l!=m)
+#python logical operators
+print(l<m and m>l)
+print(not(l<m and m>l))
+print(l>m or m<l)
+#python identity operators
+x=["apple", "banana"]
+print("apple" in x)
+print("orange" not in x)
+#python bitwise operators
+print(6&3)
+print(6|3)
+print(6^3)
+print(100+~3)
 
 
 
