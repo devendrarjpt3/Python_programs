@@ -1,3 +1,5 @@
+# in mathematics nx(n+1)/2
+
 def sumn(x):
     if (x==0):
      return 0
